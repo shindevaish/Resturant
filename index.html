@@ -1,0 +1,283 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olive Garden Restaurant</title>
+    <style>
+        /* Basic CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        nav {
+            background-color: #444;
+            padding: 15px;
+            text-align: center;
+            font-size: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        img{
+            padding-top: 20px;
+            width: 100%;
+            align-items: center;
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding-bottom: 20px;
+            padding: 30px;
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        .menu{
+            align-items: center;
+            padding: 20px;
+        }
+        .menu table {
+            width: 60%;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .menu table, .menu th, .menu td {
+            border: 1px solid #000;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        .menu th {
+            background-color: #333;
+            color: #fff;
+        }
+        .order {
+            padding: 20px;
+        }
+        .order form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .order label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .order input[type="text"], .order select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        pre{
+            text-align: center;
+            font-size: 20px;
+        }
+        .contact {
+            padding: 20px;
+        }
+        .contact p {
+            font-size: 22px;
+            color: #333;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        Olive Garden Restaurant
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#order">Order Details</a>
+        <a href="#contact">Contact Details</a>
+    </nav>
+    <div>
+        <img src="foodimage.jpg">
+    </div>
+    <h1><u>Snacks</u></h1>
+    <div class="image-gallery">
+        <img src="snack.jpg" style="padding: 30px;">
+        <img src="snack2.jpg" style="padding: 30px;">
+    </div>
+    <h1><u>Dessert</u></h1>
+    <div>
+        <img src="dessert.jpg" style="padding: 30px;">
+    </div>
+
+    <hr>
+
+    <div id="about" class="about">
+        <h1><u>About Us</u></h1>
+        <pre><b>Welcome to Olive Garden Restaurant, a culinary experience like no other. We take pride in offering you a delectable journey through 
+the world of flavors, where every dish is crafted with passion and creativity.
+
+Our story began with a simple yet powerful vision: to create a space where great food and warm ambiance come together. Our dedicated team of chefs
+and staff work tirelessly to ensure that every visit to our restaurant is a memorable one.
+            
+At Olive Garden Restaurant, we source the finest ingredients, fusing them into exquisite dishes that tantalize your taste buds. Whether you're a
+food enthusiast or just seeking a cozy dining experience, our restaurant is the perfect destination.
+            
+Join us and savor our diverse menu, where tradition meets innovation. From mouthwatering starters to decadent desserts, we've got it all.
+Come dine with us, and let us take you on a culinary adventure that will leave you craving for more.</b></pre>
+    </div>
+
+    <hr>
+
+    <div id="menu" class="menu">
+        <h1><u>Menu</u></h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Item</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="5">Snacks</td>
+                    <td>French Fries</td>
+                    <td>Deep-fried potatoes that have been cut into various shapes, especially thin strips</td>
+                </tr>
+                <tr>
+                    <td>Cheese Nachos</td>
+                    <td>Crispy corn tortilla chips topped with melted Colby cheese</td>
+                </tr>
+                <tr>
+                    <td>Pizzas</td>
+                    <td>a flattened disk of bread dough topped with vegetables, mozzarella or other cheese and baked quickly—usually, in a commercial setting</td>
+                </tr>
+                <tr>
+                    <td>Burger</td>
+                    <td>A huge single or triple burger with all the fixings, cheese, lettuce, tomato, onions and special sauce or mayonnaise</td>
+                </tr>
+                <tr>
+                    <td>Veg Roll</td>
+                    <td>The filling is made by sautéing the veggies in a Chinese style on a high flame which lends that nice unique aroma</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Dessert</td>
+                    <td>Gulab Jamun</td>
+                    <td>Fried dough balls that are soaked in a sweet, sticky sugar syrup</td>
+                </tr>
+                <tr>
+                    <td>Cheese Cake</td>
+                    <td>Thick, creamy filling of cheese, eggs, and sugar over a thinner crust and topped with sweet or sometimes salty items</td>
+                </tr>
+                <tr>
+                    <td>Chocolate Brownie</td>
+                    <td>Small, square chocolate cake that is soft in the middle, often with pieces of chocolate or nuts in it</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">South Indian</td>
+                    <td>Idli Sambhar</td>
+                    <td>Idlies are steamed cakes made of fermented rice-and-lentil batter. Sambar is basically spiced lentil soup</td>
+                </tr>
+                <tr>
+                    <td>Dosa</td>
+                    <td>Thin breads that resemble a crepe, and are commonly stuffed with a savory filling</td>
+                </tr>
+                <tr>
+                    <td>Puran Poli</td>
+                    <td>Popular Maharashtrian stuffed sweet flatbread with a delicious filling prepared with chana dal and jaggery</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">North Indian</td>
+                    <td>Bati Chokha</td>
+                    <td>Baati is made with whole wheat, black gram flour and Chokha is made up of brinjal</td>
+                </tr>
+                <tr>
+                    <td>Chole Bature</td>
+                    <td>Combination of chana masala (spicy white chickpeas) and bhatura/puri, a deep-fried bread made from maida</td>
+                </tr>
+                <tr>
+                    <td>Kadhai Paneer</td>
+                    <td>Made with kadai masala, bell peppers, tomatoes, kasuri methi & paneer</td>
+                </tr>
+                <tr>
+                    <td rowspan="6">Drinks</td>
+                    <td>Masala Chai</td>
+                    <td>Baati is made with whole wheat, black gram flour and Chokha is made up of brinjal</td>
+                </tr>
+                <tr>
+                    <td>Lassi</td>
+                    <td>Combination of chana masala (spicy white chickpeas) and bhatura/puri, a deep-fried bread made from maida</td>
+                </tr>
+                <tr>
+                    <td>Cold Coffee</td>
+                    <td>A creamy and popular cold beverage that is made up of coffee, sugar, and cold milk shaken or blended well in a mixer grinder</td>
+                </tr>
+                <tr>
+                    <td>Milkshake</td>
+                    <td>A sweet beverage made by blending milk, ice cream, and flavorings or sweeteners</td>
+                </tr>
+                <tr>
+                    <td>Fruit Juice</td>
+                    <td>Freshly squeezed fruit and vegetable juice</td>
+                </tr>
+                <tr>
+                    <td>Lime Soda</td>
+                    <td> Slaked lime with a concentrated salted solution</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+
+    <div id="order" class="order">
+        <h1><u>Order Now</u></h1>
+        <form>
+            <label for="customerName">Customer Name</label>
+            <input type="text" id="customerName" name="customerName" required>
+
+            <label for="item">Items</label>
+            <input type="text" id="item" name="item" required>
+            
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" required>
+
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" required>
+                        
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+
+    <hr>
+    <div id="contact" class="contact">
+        <h1><u>Contact Us</u></h1>
+        <p>Contact us at: olive@garden.com</p>
+        <p>Instagram Page- _.olive.garden._</p>
+        <p>Phone: +191-9838473347</p>
+    </div>
+
+
+
+    <footer>
+        <p>Opening Hours: Mon-Sun: 10:00 AM - 10:00 PM</p>
+    </footer>
+</body>
+</html>
