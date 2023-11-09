@@ -101,6 +101,79 @@
             color: #333;
         }
 
+        @media (max-width: 768px) {
+            /* Adjust header font size for smaller screens */
+            header {
+                font-size: 24px;
+                max-width: 100%;
+            }
+
+            /* Adjust nav font size for smaller screens */
+            nav {
+                font-size: 10px;
+            }
+
+            /* Center align images in the gallery for smaller screens */
+            .image-gallery img {
+                display: block;
+                margin: 0 auto;
+                align-items: center;
+            }
+
+            /* Decrease padding for better spacing on smaller screens */
+            .menu table {
+                padding: 5px;
+                align-items: center;
+                text-align: center;
+            }
+
+            /* Decrease font size for smaller screens */
+            .menu th, .menu td {
+                font-size: 14px;
+                align-items: center;
+            }
+            
+            /* Reduce padding for order form elements on smaller screens */
+            .order input[type="text"], .order select {
+                padding: 5px;
+                margin-bottom: 10px;
+                align-items: center;
+            }
+            
+            /* Decrease font size for contact details on smaller screens */
+            .contact p {
+                font-size: 16px;
+                align-items: center;
+            }
+            .about {
+                text-align: center;
+                padding: 20px;
+                font-size: 18px;
+                line-height: 1.6;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .about {
+                font-size: 20px;
+                max-width: 80%;
+                margin: 0 auto;
+            }
+        }
+
+        @media (min-width: 1025px) {
+            .about {
+                font-size: 22px;
+            }
+}
+
+/*             @media (min-width: 769px) and (max-width: 1024px) {
+        }
+
+        @media (min-width: 1025px) {
+        }
+ */
+
     </style>
 </head>
 <body>
