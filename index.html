@@ -60,13 +60,12 @@
         }
         .menu table {
             width: 60%;
-            text-align: center;
             margin: 0 auto;
         }
         .menu table, .menu th, .menu td {
-            border: 1px solid #000;
+            border: 2px solid #000;
             border-collapse: collapse;
-            padding: 10px;
+            padding: 30px;
         }
         .menu th {
             background-color: #333;
@@ -116,7 +115,6 @@
             /* Center align images in the gallery for smaller screens */
             .image-gallery img {
                 display: block;
-                margin: 0 auto;
                 align-items: center;
             }
 
@@ -151,6 +149,16 @@
                 font-size: 18px;
                 line-height: 1.6;
             }
+            .menu table, .menu th, .menu td {
+                padding: 23px; /* Further reduce padding for smaller screens */
+                font-size: 18px; /* Adjust font size for better visibility */
+            }
+            .image-gallery {
+                flex-direction: column; /* Stack images vertically on smaller screens */
+                align-items: center;
+            }
+
+
         }
 
         @media (min-width: 768px) {
@@ -160,7 +168,6 @@
                 margin: 0 auto;
             }
         }
-
         @media (min-width: 1025px) {
             .about {
                 font-size: 22px;
@@ -203,17 +210,18 @@
 
     <div id="about" class="about">
         <h1><u>About Us</u></h1>
-        <pre><b>Welcome to Olive Garden Restaurant, a culinary experience like no other. We take pride in offering you a delectable journey through 
-the world of flavors, where every dish is crafted with passion and creativity.
+        <b><p>Welcome to Olive Garden Restaurant, a culinary experience like no other. We take pride in offering you a delectable journey through 
+the world of flavors, where every dish is crafted with passion and creativity.</p>
 
-Our story began with a simple yet powerful vision: to create a space where great food and warm ambiance come together. Our dedicated team of chefs
-and staff work tirelessly to ensure that every visit to our restaurant is a memorable one.
+<p>Our story began with a simple yet powerful vision: to create a space where great food and warm ambiance come together. Our dedicated team of chefs
+and staff work tirelessly to ensure that every visit to our restaurant is a memorable one.</p>
             
-At Olive Garden Restaurant, we source the finest ingredients, fusing them into exquisite dishes that tantalize your taste buds. Whether you're a
+<p>At Olive Garden Restaurant, we source the finest ingredients, fusing them into exquisite dishes that tantalize your taste buds. Whether you're a
+food enthusiast or just seeking a cozy dining experience, our restaurant is the perfect destination.</p>
+            
+<p>Join us and savor our diverse menu, where tradition meets innovation. From mouthwatering starters to decadent desserts, we've got it all.
 food enthusiast or just seeking a cozy dining experience, our restaurant is the perfect destination.
-            
-Join us and savor our diverse menu, where tradition meets innovation. From mouthwatering starters to decadent desserts, we've got it all.
-Come dine with us, and let us take you on a culinary adventure that will leave you craving for more.</b></pre>
+Come dine with us, and let us take you on a culinary adventure that will leave you craving for more.</p></b>
     </div>
 
     <hr>
